@@ -65,8 +65,6 @@ public class TodoList {
             return null;
         }
         return currentHighest;
-
-
         /*
         return list.stream()
                 .filter(item -> !item.isDone())
